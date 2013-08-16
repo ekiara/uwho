@@ -1,0 +1,1090 @@
+var whois_servers = [
+{
+    "tld":"AC",
+    "server":"whois.nic.ac"
+},
+{
+    "tld":"AD",
+    "server":""
+},
+{
+    "tld":"AE",
+    "server":"whois.aeda.net.ae"
+},
+{
+    "tld":"AERO",
+    "server":"whois.aero"
+},
+{
+    "tld":"AF",
+    "server":"whois.nic.af"
+},
+{
+    "tld":"AG",
+    "server":"whois.nic.ag"
+},
+{
+    "tld":"AI",
+    "server":"whois.ai"
+},
+{
+    "tld":"AL",
+    "server":"whois.amnic.net"
+},
+{
+    "tld":"AM",
+    "server":""
+},
+{
+    "tld":"AN",
+    "server":""
+},
+{
+    "tld":"AO",
+    "server":""
+},
+{
+    "tld":"AQ",
+    "server":""
+},
+{
+    "tld":"AR",
+    "server":""
+},
+{
+    "tld":"ARPA",
+    "server":"whois.iana.org"
+},
+{
+    "tld":"AS",
+    "server":"whois.nic.as"
+},
+{
+    "tld":"ASIA",
+    "server":"whois.nic.asia"
+},
+{
+    "tld":"AT",
+    "server":"whois.nic.at"
+},
+{
+    "tld":"AU",
+    "server":"whois.audns.net.au"
+},
+{
+    "tld":"AW",
+    "server":""
+},
+{
+    "tld":"AX",
+    "server":"whois.ax"
+},
+{
+    "tld":"AZ",
+    "server":""
+},
+{
+    "tld":"BA",
+    "server":""
+},
+{
+    "tld":"BB",
+    "server":""
+},
+{
+    "tld":"BD",
+    "server":""
+},
+{
+    "tld":"BE",
+    "server":"whois.dns.be"
+},
+{
+    "tld":"BF",
+    "server":""
+},
+{
+    "tld":"BG",
+    "server":"whois.register.bg"
+},
+{
+    "tld":"BH",
+    "server":""
+},
+{
+    "tld":"BI",
+    "server":"whois1.nic.bi"
+},
+{
+    "tld":"BIZ",
+    "server":"whois.biz"
+},
+{
+    "tld":"BJ",
+    "server":"whois.nic.bj"
+},
+{
+    "tld":"BM",
+    "server":""
+},
+{
+    "tld":"BN",
+    "server":"whois.bn"
+},
+{
+    "tld":"BO",
+    "server":"whois.nic.bo"
+},
+{
+    "tld":"BR",
+    "server":"whois.registro.br"
+},
+{
+    "tld":"BS",
+    "server":""
+},
+{
+    "tld":"BT",
+    "server":""
+},
+{
+    "tld":"BV",
+    "server":""
+},
+{
+    "tld":"BW",
+    "server":""
+},
+{
+    "tld":"BY",
+    "server":"whois.cctld.by"
+},
+{
+    "tld":"BZ",
+    "server":""
+},
+{
+    "tld":"CA",
+    "server":"whois.cira.ca"
+},
+{
+    "tld":"CAT",
+    "server":"whois.cat"
+},
+{
+    "tld":"CC",
+    "server":"ccwhois.verisign-grs.com"
+},
+{
+    "tld":"CD",
+    "server":""
+},
+{
+    "tld":"CF",
+    "server":"whois.dot.cf"
+},
+{
+    "tld":"CG",
+    "server":""
+},
+{
+    "tld":"CH",
+    "server":"whois.nic.ch"
+},
+{
+    "tld":"CI",
+    "server":"whois.nic.ci"
+},
+{
+    "tld":"CK",
+    "server":""
+},
+{
+    "tld":"CL",
+    "server":"whois.nic.cl"
+},
+{
+    "tld":"CM",
+    "server":""
+},
+{
+    "tld":"CN",
+    "server":"whois.cnnic.cn"
+},
+{
+    "tld":"CO",
+    "server":"whois.nic.co"
+},
+{
+    "tld":"COM",
+    "server":"whois.verisign-grs.com"
+},
+{
+    "tld":"COOP",
+    "server":"whois.nic.coop"
+},
+{
+    "tld":"CR",
+    "server":""
+},
+{
+    "tld":"CU",
+    "server":""
+},
+{
+    "tld":"CV",
+    "server":""
+},
+{
+    "tld":"CW",
+    "server":""
+},
+{
+    "tld":"CX",
+    "server":"whois.nic.cx"
+},
+{
+    "tld":"CY",
+    "server":""
+},
+{
+    "tld":"CZ",
+    "server":"whois.nic.cz"
+},
+{
+    "tld":"DE",
+    "server":"whois.denic.de"
+},
+{
+    "tld":"DJ",
+    "server":""
+},
+{
+    "tld":"DK",
+    "server":"whois.dk-hostmaster.dk"
+},
+{
+    "tld":"DM",
+    "server":"whois.nic.dm"
+},
+{
+    "tld":"DO",
+    "server":""
+},
+{
+    "tld":"DZ",
+    "server":"whois.nic.dz"
+},
+{
+    "tld":"EC",
+    "server":"whois.nic.ec"
+},
+{
+    "tld":"EDU",
+    "server":"whois.educause.edu"
+},
+{
+    "tld":"EE",
+    "server":"whois.tld.ee"
+},
+{
+    "tld":"EG",
+    "server":""
+},
+{
+    "tld":"ER",
+    "server":""
+},
+{
+    "tld":"ES",
+    "server":"whois.nic.es"
+},
+{
+    "tld":"ET",
+    "server":""
+},
+{
+    "tld":"EU",
+    "server":"whois.eu"
+},
+{
+    "tld":"FI",
+    "server":"whois.fi"
+},
+{
+    "tld":"FJ",
+    "server":""
+},
+{
+    "tld":"FK",
+    "server":""
+},
+{
+    "tld":"FM",
+    "server":""
+},
+{
+    "tld":"FO",
+    "server":"whois.nic.fo"
+},
+{
+    "tld":"FR",
+    "server":"whois.nic.fr"
+},
+{
+    "tld":"GA",
+    "server":""
+},
+{
+    "tld":"GB",
+    "server":""
+},
+{
+    "tld":"GD",
+    "server":"whois.nic.gd"
+},
+{
+    "tld":"GE",
+    "server":""
+},
+{
+    "tld":"GF",
+    "server":""
+},
+{
+    "tld":"GG",
+    "server":"whois.gg"
+},
+{
+    "tld":"GH",
+    "server":""
+},
+{
+    "tld":"GI",
+    "server":"whois2.afilias-grs.net"
+},
+{
+    "tld":"GL",
+    "server":"whois.nic.gl"
+},
+{
+    "tld":"GM",
+    "server":""
+},
+{
+    "tld":"GN",
+    "server":""
+},
+{
+    "tld":"GOV",
+    "server":"whois.dotgov.gov"
+},
+{
+    "tld":"GP",
+    "server":""
+},
+{
+    "tld":"GQ",
+    "server":""
+},
+{
+    "tld":"GR",
+    "server":""
+},
+{
+    "tld":"GS",
+    "server":"whois.nic.gs"
+},
+{
+    "tld":"GT",
+    "server":""
+},
+{
+    "tld":"GU",
+    "server":""
+},
+{
+    "tld":"GW",
+    "server":""
+},
+{
+    "tld":"GY",
+    "server":"whois.registry.gy"
+},
+{
+    "tld":"HK",
+    "server":"whois.hkirc.hk"
+},
+{
+    "tld":"HM",
+    "server":""
+},
+{
+    "tld":"HN",
+    "server":"whois.nic.hn"
+},
+{
+    "tld":"HR",
+    "server":"whois.dns.hr"
+},
+{
+    "tld":"HT",
+    "server":"whois.nic.ht"
+},
+{
+    "tld":"HU",
+    "server":"whois.nic.hu"
+},
+{
+    "tld":"ID",
+    "server":"whois.pandi.or.id"
+},
+{
+    "tld":"IE",
+    "server":"whois.domainregistry.ie"
+},
+{
+    "tld":"IL",
+    "server":"whois.isoc.org.il"
+},
+{
+    "tld":"IM",
+    "server":"whois.nic.im"
+},
+{
+    "tld":"IN",
+    "server":"whois.inregistry.net"
+},
+{
+    "tld":"INFO",
+    "server":"whois.afilias.net"
+},
+{
+    "tld":"INT",
+    "server":"whois.iana.org"
+},
+{
+    "tld":"IO",
+    "server":"whois.nic.io"
+},
+{
+    "tld":"IQ",
+    "server":"whois.cmc.iq"
+},
+{
+    "tld":"IR",
+    "server":"whois.nic.ir"
+},
+{
+    "tld":"IS",
+    "server":"whois.isnic.is"
+},
+{
+    "tld":"IT",
+    "server":"whois.nic.it"
+},
+{
+    "tld":"JE",
+    "server":"whois.je"
+},
+{
+    "tld":"JM",
+    "server":""
+},
+{
+    "tld":"JO",
+    "server":""
+},
+{
+    "tld":"JOBS",
+    "server":"jobswhois.verisign-grs.com"
+},
+{
+    "tld":"JP",
+    "server":"whois.jprs.jp"
+},
+{
+    "tld":"KE",
+    "server":"whois.kenic.or.ke"
+},
+{
+    "tld":"KG",
+    "server":"whois.domain.kg"
+},
+{
+    "tld":"KH",
+    "server":""
+},
+{
+    "tld":"KI",
+    "server":"whois.nic.ki"
+},
+{
+    "tld":"KM",
+    "server":""
+},
+{
+    "tld":"KN",
+    "server":""
+},
+{
+    "tld":"KP",
+    "server":""
+},
+{
+    "tld":"KR",
+    "server":"whois.kr"
+},
+{
+    "tld":"KW",
+    "server":""
+},
+{
+    "tld":"KY",
+    "server":""
+},
+{
+    "tld":"KZ",
+    "server":"whois.nic.kz"
+},
+{
+    "tld":"LA",
+    "server":"whois.nic.la"
+},
+{
+    "tld":"LB",
+    "server":""
+},
+{
+    "tld":"LC",
+    "server":""
+},
+{
+    "tld":"LI",
+    "server":"whois.nic.li"
+},
+{
+    "tld":"LK",
+    "server":""
+},
+{
+    "tld":"LR",
+    "server":""
+},
+{
+    "tld":"LS",
+    "server":""
+},
+{
+    "tld":"LT",
+    "server":"whois.domreg.lt"
+},
+{
+    "tld":"LU",
+    "server":"whois.dns.lu"
+},
+{
+    "tld":"LV",
+    "server":"whois.nic.lv"
+},
+{
+    "tld":"LY",
+    "server":"whois.nic.ly"
+},
+{
+    "tld":"MA",
+    "server":"whois.iam.net.ma"
+},
+{
+    "tld":"MC",
+    "server":""
+},
+{
+    "tld":"MD",
+    "server":"whois.nic.md"
+},
+{
+    "tld":"ME",
+    "server":"whois.nic.me"
+},
+{
+    "tld":"MG",
+    "server":"whois.nic.mg"
+},
+{
+    "tld":"MH",
+    "server":""
+},
+{
+    "tld":"MIL",
+    "server":""
+},
+{
+    "tld":"MK",
+    "server":""
+},
+{
+    "tld":"ML",
+    "server":"whois.dot.ml"
+},
+{
+    "tld":"MM",
+    "server":""
+},
+{
+    "tld":"MN",
+    "server":"whois.nic.mn"
+},
+{
+    "tld":"MO",
+    "server":"whois.monic.mo"
+},
+{
+    "tld":"MOBI",
+    "server":"whois.dotmobiregistry.net"
+},
+{
+    "tld":"MP",
+    "server":"whois.nic.mp"
+},
+{
+    "tld":"MQ",
+    "server":""
+},
+{
+    "tld":"MR",
+    "server":""
+},
+{
+    "tld":"MS",
+    "server":"whois.nic.ms"
+},
+{
+    "tld":"MT",
+    "server":""
+},
+{
+    "tld":"MU",
+    "server":"whois.nic.mu"
+},
+{
+    "tld":"MUSEUM",
+    "server":": whois.museum"
+},
+{
+    "tld":"MV",
+    "server":""
+},
+{
+    "tld":"MW",
+    "server":""
+},
+{
+    "tld":"MX",
+    "server":"whois.mx"
+},
+{
+    "tld":"MY",
+    "server":"whois.domainregistry.my"
+},
+{
+    "tld":"MZ",
+    "server":""
+},
+{
+    "tld":"NA",
+    "server":"whois.na-nic.com.na"
+},
+{
+    "tld":"NAME",
+    "server":"whois.nic.name"
+},
+{
+    "tld":"NC",
+    "server":"whois.nc"
+},
+{
+    "tld":"NE",
+    "server":""
+},
+{
+    "tld":"NET",
+    "server":"whois.verisign-grs.com"
+},
+{
+    "tld":"NF",
+    "server":"whois.nic.nf"
+},
+{
+    "tld":"NG",
+    "server":"whois.nic.net.ng"
+},
+{
+    "tld":"NI",
+    "server":""
+},
+{
+    "tld":"NL",
+    "server":"whois.domain-registry.nl"
+},
+{
+    "tld":"NO",
+    "server":"whois.norid.no"
+},
+{
+    "tld":"NP",
+    "server":""
+},
+{
+    "tld":"NR",
+    "server":""
+},
+{
+    "tld":"NU",
+    "server":"whois.nic.nu"
+},
+{
+    "tld":"NZ",
+    "server":"whois.srs.net.nz"
+},
+{
+    "tld":"OM",
+    "server":"whois.registry.om"
+},
+{
+    "tld":"ORG",
+    "server":"whois.pir.org"
+},
+{
+    "tld":"PA",
+    "server":""
+},
+{
+    "tld":"PE",
+    "server":"kero.yachay.pe"
+},
+{
+    "tld":"PF",
+    "server":"whois.registry.pf"
+},
+{
+    "tld":"PG",
+    "server":""
+},
+{
+    "tld":"PH",
+    "server":""
+},
+{
+    "tld":"PK",
+    "server":""
+},
+{
+    "tld":"PL",
+    "server":"whois.dns.pl"
+},
+{
+    "tld":"PM",
+    "server":"whois.nic.pm"
+},
+{
+    "tld":"PN",
+    "server":""
+},
+{
+    "tld":"POST",
+    "server":"whois.dotpostregistry.net"
+},
+{
+    "tld":"PR",
+    "server":"whois.nic.pr"
+},
+{
+    "tld":"PRO",
+    "server":"whois.dotproregistry.net"
+},
+{
+    "tld":"PS",
+    "server":""
+},
+{
+    "tld":"PT",
+    "server":"whois.dns.pt"
+},
+{
+    "tld":"PW",
+    "server":"whois.nic.pw"
+},
+{
+    "tld":"PY",
+    "server":""
+},
+{
+    "tld":"QA",
+    "server":"whois.registry.qa"
+},
+{
+    "tld":"RE",
+    "server":"whois.nic.re"
+},
+{
+    "tld":"RO",
+    "server":"whois.rotld.ro"
+},
+{
+    "tld":"RS",
+    "server":"whois.rnids.rs"
+},
+{
+    "tld":"RU",
+    "server":"whois.tcinet.ru"
+},
+{
+    "tld":"RW",
+    "server":"whois.nic.net.sa"
+},
+{
+    "tld":"SA",
+    "server":""
+},
+{
+    "tld":"SB",
+    "server":"whois.nic.net.sb"
+},
+{
+    "tld":"SC",
+    "server":"whois2.afilias-grs.net"
+},
+{
+    "tld":"SD",
+    "server":""
+},
+{
+    "tld":"SE",
+    "server":"whois.iis.se"
+},
+{
+    "tld":"SG",
+    "server":"whois.sgnic.sg"
+},
+{
+    "tld":"SH",
+    "server":"whois.nic.sh"
+},
+{
+    "tld":"SI",
+    "server":"whois.arnes.si"
+},
+{
+    "tld":"SJ",
+    "server":""
+},
+{
+    "tld":"SK",
+    "server":"whois.sk-nic.sk"
+},
+{
+    "tld":"SL",
+    "server":""
+},
+{
+    "tld":"SM",
+    "server":"whois.nic.sm"
+},
+{
+    "tld":"SN",
+    "server":"whois.nic.sn"
+},
+{
+    "tld":"SO",
+    "server":"whois.nic.so"
+},
+{
+    "tld":"SR",
+    "server":""
+},
+{
+    "tld":"ST",
+    "server":"whois.nic.st"
+},
+{
+    "tld":"SU",
+    "server":"whois.tcinet.ru"
+},
+{
+    "tld":"SV",
+    "server":""
+},
+{
+    "tld":"SX",
+    "server":"whois.sx"
+},
+{
+    "tld":"SY",
+    "server":"whois.tld.sy"
+},
+{
+    "tld":"SZ",
+    "server":""
+},
+{
+    "tld":"TC",
+    "server":"whois.meridiantld.net"
+},
+{
+    "tld":"TD",
+    "server":""
+},
+{
+    "tld":"TEL",
+    "server":"whois.nic.tel"
+},
+{
+    "tld":"TF",
+    "server":"whois.nic.tf"
+},
+{
+    "tld":"TG",
+    "server":""
+},
+{
+    "tld":"TH",
+    "server":"whois.thnic.co.th"
+},
+{
+    "tld":"TJ",
+    "server":""
+},
+{
+    "tld":"TK",
+    "server":"whois.dot.tk"
+},
+{
+    "tld":"TL",
+    "server":"whois.nic.tl"
+},
+{
+    "tld":"TM",
+    "server":"whois.nic.tm"
+},
+{
+    "tld":"TN",
+    "server":"whois.ati.tn"
+},
+{
+    "tld":"TO",
+    "server":"whois.tonic.to"
+},
+{
+    "tld":"TP",
+    "server":"whois.nic.tr"
+},
+{
+    "tld":"TR",
+    "server":""
+},
+{
+    "tld":"TRAVEL",
+    "server":": whois.nic.travel"
+},
+{
+    "tld":"TT",
+    "server":""
+},
+{
+    "tld":"TV",
+    "server":"tvwhois.verisign-grs.com"
+},
+{
+    "tld":"TW",
+    "server":"whois.twnic.net.tw"
+},
+{
+    "tld":"TZ",
+    "server":"whois.tznic.or.tz"
+},
+{
+    "tld":"UA",
+    "server":"whois.ua"
+},
+{
+    "tld":"UG",
+    "server":"whois.co.ug"
+},
+{
+    "tld":"UK",
+    "server":"whois.nic.uk"
+},
+{
+    "tld":"US",
+    "server":"whois.nic.us"
+},
+{
+    "tld":"UY",
+    "server":"whois.nic.org.uy"
+},
+{
+    "tld":"UZ",
+    "server":"whois.cctld.uz"
+},
+{
+    "tld":"VA",
+    "server":""
+},
+{
+    "tld":"VC",
+    "server":"whois2.afilias-grs.net"
+},
+{
+    "tld":"VE",
+    "server":"whois.nic.ve"
+},
+{
+    "tld":"VG",
+    "server":"whois.adamsnames.tc"
+},
+{
+    "tld":"VI",
+    "server":""
+},
+{
+    "tld":"VN",
+    "server":""
+},
+{
+    "tld":"VU",
+    "server":""
+},
+{
+    "tld":"WF",
+    "server":"whois.nic.wf"
+},
+{
+    "tld":"WS",
+    "server":"whois.website.ws"
+},
+{
+    "tld":"XXX",
+    "server":"whois.nic.xxx"
+},
+{
+    "tld":"YE",
+    "server":""
+},
+{
+    "tld":"YT",
+    "server":"whois.nic.yt"
+},
+{
+    "tld":"ZA",
+    "server":""
+},
+{
+    "tld":"ZM",
+    "server":""
+},
+{
+    "tld":"ZW",
+    "server":""
+}
+]
